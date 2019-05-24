@@ -1,0 +1,172 @@
+2: Scan multiple IP address or subnet (IPv4)
+
+nmap 192.168.1.1 192.168.1.2 192.168.1.3
+## works with same subnet i.e. 192.168.1.0/24 
+nmap 192.168.1.1,2,3
+You can scan a range of IP address too:
+
+nmap 192.168.1.1-20
+You can scan a range of IP address using a wildcard:
+
+nmap 192.168.1.*
+Finally, you scan an entire subnet:
+
+nmap 192.168.1.0/24
+#3: Read list of hosts/networks from a file (IPv4)
+
+The -iL option allows you to read the list of target systems using a text file. This is useful to scan a large number of hosts/networks. Create a text file as follows:
+cat > /tmp/test.txt
+
+Sample outputs:
+
+server1.cyberciti.biz
+192.168.1.0/24
+192.168.1.1/24
+10.1.2.3
+localhost
+The syntax is:
+
+nmap -iL /tmp/test.txt
+#4: Excluding hosts/networks (IPv4)
+
+When scanning a large number of hosts/networks you can exclude hosts from a scan:
+
+nmap 192.168.1.0/24 --exclude 192.168.1.5
+nmap 192.168.1.0/24 --exclude 192.168.1.5,192.168.1.254
+OR exclude list from a file called /tmp/exclude.txt
+
+nmap -iL /tmp/scanlist.txt --excludefile /tmp/exclude.txt
+#5: Turn on OS and version detection scanning script (IPv4)
+
+nmap -A 192.168.1.254
+nmap -v -A 192.168.1.1
+nmap -A -iL /tmp/scanlist.txt 
+#6: Find out if a host/network is protected by a firewall
+
+nmap -sA 192.168.1.254
+nmap -sA server1.cyberciti.biz
+#7: Scan a host when protected by the firewall
+
+nmap -PN 192.168.1.1
+nmap -PN server1.cyberciti.biz
+#8: Scan an IPv6 host/address
+
+The -6 option enable IPv6 scanning. The syntax is:
+
+nmap -6 IPv6-Address-Here
+nmap -6 server1.cyberciti.biz
+nmap -6 2607:f0d0:1002:51::4
+nmap -v A -6 2607:f0d0:1002:51::4
+#9: Scan a network and find out which servers and devices are up and running
+
+This is known as host discovery or ping scan:
+
+nmap -sP 192.168.1.0/24
+Sample outputs:
+
+Host 192.168.1.1 is up (0.00035s latency).
+MAC Address: BC:AE:C5:C3:16:93 (Unknown)
+Host 192.168.1.2 is up (0.0038s latency).
+MAC Address: 74:44:01:40:57:FB (Unknown)
+Host 192.168.1.5 is up.
+Host nas03 (192.168.1.12) is up (0.0091s latency).
+MAC Address: 00:11:32:11:15:FC (Synology Incorporated)
+Nmap done: 256 IP addresses (4 hosts up) scanned in 2.80 second
+#10: How do I perform a fast scan?
+
+nmap -F 192.168.1.1
+#11: Display the reason a port is in a particular state
+
+nmap --reason 192.168.1.1
+nmap --reason server1.cyberciti.biz
+#12: Only show open (or possibly open) ports
+
+nmap --open 192.168.1.1
+nmap --open server1.cyberciti.biz
+#13: Show all packets sent and received
+
+nmap --packet-trace 192.168.1.1
+nmap --packet-trace server1.cyberciti.biz
+14#: Show host interfaces and routes
+
+This is useful for debugging (ip command or route command or netstat command like output using nmap)
+
+nmap --iflist
+Sample outputs:
+
+Starting Nmap 5.00 ( http://nmap.org ) at 2012-11-27 02:01 IST
+************************INTERFACES************************
+DEV    (SHORT)  IP/MASK          TYPE        UP MAC
+lo     (lo)     127.0.0.1/8      loopback    up
+eth0   (eth0)   192.168.1.5/24   ethernet    up B8:AC:6F:65:31:E5
+vmnet1 (vmnet1) 192.168.121.1/24 ethernet    up 00:50:56:C0:00:01
+vmnet8 (vmnet8) 192.168.179.1/24 ethernet    up 00:50:56:C0:00:08
+ppp0   (ppp0)   10.1.19.69/32    point2point up
+ 
+**************************ROUTES**************************
+DST/MASK         DEV    GATEWAY
+10.0.31.178/32   ppp0
+209.133.67.35/32 eth0   192.168.1.2
+192.168.1.0/0    eth0
+192.168.121.0/0  vmnet1
+192.168.179.0/0  vmnet8
+169.254.0.0/0    eth0
+10.0.0.0/0       ppp0
+0.0.0.0/0        eth0   192.168.1.2
+#15: How do I scan specific ports?
+
+nmap -p [port] hostName
+## Scan port 80
+nmap -p 80 192.168.1.1
+ 
+## Scan TCP port 80
+nmap -p T:80 192.168.1.1
+ 
+## Scan UDP port 53
+nmap -p U:53 192.168.1.1
+ 
+## Scan two ports ##
+nmap -p 80,443 192.168.1.1
+ 
+## Scan port ranges ##
+nmap -p 80-200 192.168.1.1
+ 
+## Combine all options ##
+nmap -p U:53,111,137,T:21-25,80,139,8080 192.168.1.1
+nmap -p U:53,111,137,T:21-25,80,139,8080 server1.cyberciti.biz
+nmap -v -sU -sT -p U:53,111,137,T:21-25,80,139,8080 192.168.1.254
+ 
+## Scan all ports with * wildcard ##
+nmap -p "*" 192.168.1.1
+ 
+## Scan top ports i.e. scan $number most common ports ##
+nmap --top-ports 5 192.168.1.1
+nmap --top-ports 10 192.168.1.1
+Sample outputs:
+
+Starting Nmap 5.00 ( http://nmap.org ) at 2012-11-27 01:23 IST
+Interesting ports on 192.168.1.1:
+PORT     STATE  SERVICE
+21/tcp   closed ftp
+22/tcp   open   ssh
+23/tcp   closed telnet
+25/tcp   closed smtp
+80/tcp   open   http
+110/tcp  closed pop3
+139/tcp  closed netbios-ssn
+443/tcp  closed https
+445/tcp  closed microsoft-ds
+3389/tcp closed ms-term-serv
+MAC Address: BC:AE:C5:C3:16:93 (Unknown)
+ 
+Nmap done: 1 IP address (1 host up) scanned in 0.51 seconds
+#16: The fastest way to scan all your devices/computers for open ports ever
+
+nmap -T5 192.168.1.0/24
+#17: How do I detect remote operating system?
+
+You can identify a remote host apps and OS using the -O option:
+
+nmap -O 192.168.1.1
+nmap -O  --osscan-guess 192.168.1.1
+nmap -v -O --osscan-guess 192.168.1.1

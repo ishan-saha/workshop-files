@@ -1,0 +1,40 @@
+enumeration
+
+dnsdict6  (it is in backtrack)
+
+*dmitry sitename.com
+dmitry -wnsepb amity.edu
+dmitry -wi domain name
+dmitry -w -i domain name
+
+##dnsenum
+*dnsenum
+*dnsenum domain name
+*dnsenum -p 5 -s 20 paytm.com
+*dnsenum ––enum example.com
+*dnsenum ––enum -f -r example.com
+? -r allows you to enable recursive lookups
+? -d allows you to set the time delay in seconds between WHOIS requests
+? -o allows us to specify the output location
+? -w allows us to enable the WHOIS queries
+
+##Dig command
+
+*dig site name
+
+*touch name.txt
+gedit name.txt
+then type wesites name and save then type on terminal
+dig -f name.txt
+we get the name servers details
+-f command used for brute forcing
+
+
+##penetest tools its a website on google
+pentest-tools.com
+
+
+##id serve = banner grabbing //this is a software to scan a server
+
+
+

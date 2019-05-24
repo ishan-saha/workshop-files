@@ -1,0 +1,31 @@
+intitle:"  "   // target title
+inurl:"  "   //target url
+intext:"  "     // target description
+allintext:"Copyright © Litchi"
+site:"cryptus.in"     //target all website pages or countries extension
+"filetype" hacking.pdf           //target the filetypes
+
+
+* Google hacking database(ghdb)
+https://www.exploit-db.com/google-hacking-database/
+
+*cve details (complete details about the latest vulnerability
+
+*example of dorks
+
+inurl:pictures intitle:index.of site:.in (directory listing)
+
+
+
+
+
+**sql dork
+inurl:".php?id="
+inurl:".php?id=" add to cart  (got sql error)
+buy.php?category=
+article.php?id=
+gallery.php?id=
+page.php?id=
+
+ 
+and put (') to check the errors

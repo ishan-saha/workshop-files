@@ -1,0 +1,238 @@
+** CCTV camera dorks
+
+inurl:”CgiStart?page=”
+inurl:/view.shtml
+intitle:”Live View / – AXIS
+inurl:view/view.shtml
+inurl:ViewerFrame?Mode=
+inurl:ViewerFrame?Mode=Refresh
+inurl:axis-cgi/jpg
+inurl:axis-cgi/mjpg (motion-JPEG) (disconnected)
+inurl:view/indexFrame.shtml
+inurl:view/index.shtml
+inurl:view/view.shtml
+liveapplet
+intitle:”live view” intitle:axis
+intitle:liveapplet
+allintitle:”Network Camera NetworkCamera” (disconnected)
+intitle:axis intitle:”video server”
+intitle:liveapplet inurl:LvAppl
+intitle:”EvoCam” inurl:”webcam.html”
+intitle:”Live NetSnap Cam-Server feed”
+intitle:”Live View / – AXIS”
+intitle:”Live View / – AXIS 206M”
+intitle:”Live View / – AXIS 206W”
+intitle:”Live View / – AXIS 210?
+inurl:indexFrame.shtml Axis
+inurl:”MultiCameraFrame?Mode=Motion” (disconnected)
+intitle:start inurl:cgistart * intitle:”WJ-NT104 Main Page”
+intitle:snc-z20 inurl:home/
+intitle:snc-cs3 inurl:home/
+intitle:snc-rz30 inurl:home/
+intitle:”sony network camera snc-p1?
+intitle:”sony network camera snc-m1?
+site:.viewnetcam.com -www.viewnetcam.com
+intitle:”Toshiba Network Camera” user login
+intitle:”netcam live image” (disconnected)
+intitle:”i-Catcher Console – Web Monitor”
+
+nurl:/view.shtml
+intitle:”Live View / – AXIS” | inurl:view/view.shtml^
+inurl:ViewerFrame?Mode=
+inurl:ViewerFrame?Mode=Refresh
+inurl:axis-cgi/jpg
+inurl:view/indexFrame.shtml
+inurl:view/index.shtml
+inurl:view/view.shtml
+liveapplet
+intitle:”live view” intitle:axis
+intitle:liveapplet
+allintitle:”Network Camera NetworkCamera”
+intitle:axis intitle:”video server”
+intitle:liveapplet inurl:LvAppl
+intitle:”EvoCam” inurl:”webcam.html”
+intitle:”Live NetSnap Cam-Server feed”
+intitle:”Live View / - AXIS 206M”
+intitle:”Live View / - AXIS 206W”
+intitle:”Live View / - AXIS 210?
+inurl:indexFrame.shtml Axis
+intitle:start inurl:cgistart
+intitle:”WJ-NT104 Main Page”
+intitle:snc-z20 inurl:home/
+intitle:snc-cs3 inurl:home/
+intitle:snc-rz30 inurl:home/
+intitle:”sony network camera snc-p1?
+intitle:”sony network camera snc-m1?
+intitle:”Toshiba Network Camera” user login
+intitle:”i-Catcher Console - Web Monitor”
+
+ inurl:/view.shtml
+    intitle:”Live View / - AXIS” | inurl:view/view.shtml^
+    inurl:ViewerFrame?Mode=
+    inurl:ViewerFrame?Mode=Refresh
+    inurl:axis-cgi/jpg
+    inurl:axis-cgi/mjpg (motion-JPEG)
+    inurl:view/indexFrame.shtml
+    inurl:view/index.shtml
+    inurl:view/view.shtml
+    liveapplet
+    intitle:”live view” intitle:axis
+    intitle:liveapplet
+    allintitle:”Network Camera NetworkCamera”
+    intitle:axis intitle:”video server”
+    intitle:liveapplet inurl:LvAppl
+    intitle:”EvoCam” inurl:”webcam.html”
+    intitle:”Live NetSnap Cam-Server feed”
+    intitle:”Live View / - AXIS”
+    intitle:”Live View / - AXIS 206M”
+    intitle:”Live View / - AXIS 206W”
+    intitle:”Live View / - AXIS 210?
+    inurl:indexFrame.shtml Axis
+    inurl:”MultiCameraFrame?Mode=Motion”
+    intitle:start inurl:cgistart
+    intitle:”WJ-NT104 Main Page”
+    intext:”MOBOTIX M1? intext:”Open Menu”
+    intext:”MOBOTIX M10? intext:”Open Menu”
+    intext:”MOBOTIX D10? intext:”Open Menu”
+    intitle:snc-z20 inurl:home/
+    intitle:snc-cs3 inurl:home/
+    intitle:snc-rz30 inurl:home/
+    intitle:”sony network camera snc-p1?
+    intitle:”sony network camera snc-m1?
+    site:.viewnetcam.com -www.viewnetcam.com
+    intitle:”Toshiba Network Camera” user login
+    intitle:”netcam live image”
+    intitle:”i-Catcher Console - Web Monitor” 
+inurl:"viewerframe?mode="
+inurl:"axis-cgi/mjpg"
+inurl:"/view/index.shtml"
+intitle:liveapplet
+inurl:lvappl
+cgi-bin/video.jpg?size=2
+inurl:ViewerFrame?Mode=
+inurl:ViewerFrame?Mode=Refresh
+inurl:axis-cgi/jpg
+inurl:axis-cgi/mjpg (motion-JPEG)
+inurl:view/indexFrame.shtml
+inurl:view/index.shtml
+inurl:view/view.shtml
+liveapplet
+intitle:”live view” intitle:axis
+intitle:liveapplet
+allintitle:”Network Camera NetworkCamera”
+intitle:axis intitle:”video server”
+intitle:liveapplet inurl:LvAppl
+intitle:”EvoCam” inurl:”webcam.html”
+intitle:”Live NetSnap Cam-Server feed”
+intitle:”Live View / – AXIS”
+intitle:”Live View / – AXIS 206M”
+intitle:”Live View / – AXIS 206W”
+intitle:”Live View / – AXIS 210?
+inurl:indexFrame.shtml Axis
+inurl:”MultiCameraFrame?Mode=Motion”
+intitle:start inurl:cgistart
+intitle:”WJ-NT104 Main Page”
+intext:”MOBOTIX M1? intext:”Open Menu”
+intext:”MOBOTIX M10? intext:”Open Menu”
+intext:”MOBOTIX D10? intext:”Open Menu”
+intitle:snc-z20 inurl:home/
+intitle:snc-cs3 inurl:home/
+intitle:snc-rz30 inurl:home/
+intitle:”sony network camera snc-p1?
+intitle:”sony network camera snc-m1?
+site:.viewnetcam.com -www.viewnetcam.com
+intitle:”Toshiba Network Camera” user login
+intitle:”netcam live image”
+intitle:”i-Catcher Console – Web Monitor”
+intitle:axis
+intitle:axis camera
+intitle:"Live View / - AXIS"
+intitle:"Live View / - AXIS 206M"
+intitle:"Live View / - AXIS 206W"
+intitle:"Live View / - AXIS 210"
+inurl:indexFrame.shtml "Axis Video Server"
+inurl:"axis-cgi/mjpg"
+inurl:"ViewerFrame?Mode="
+inurl:"ViewerFrame?Mode=Motion"
+inurl:"view/index.shtml"
+inurl:"MultiCameraFrame?Mode="
+inurl:"video.cgi=" inurl:axis
+inurl:"video.cgi?showlength=1"
+inurl:"view/indexFrame.shtml"
+"axis-cgi/jpg"
+"view/indexFrame.shtml"
+"view/view.shtml"
+"video.cgi?resolution="
+inurl:axiscam.net "AXIS"
+inurl:axiscam.net "Live view"
+inurl:mjpg/video.cgi
+"MOBOTIX M1" and "open menu"
+intext:"MOBOTIX M1"
+intext:"MOBOTIX M1" intext:"Open Menu"
+intext:"MOBOTIX M10" intext:"Open Menu"
+intext:"MOBOTIX D10" intext:"Open Menu"
+intext:"Open Menu"
+intitle:snc-rz30
+intitle:"snc-rz30 home"
+intitle:snc-z20 inurl:home/
+intitle:snc-cs3 inurl:home/
+intitle:snc-rz30 inurl:home/
+intitle:"sony network camera snc-p1"
+intitle:"sony network camera snc-m1"
+intitle:"TOSHIBA Network Camera - User Login"
+intitle:toshiba inurl:user_single_view.htm
+intitle:liveapplet inurl:LvAppl
+"CgiStart?page=Single"
+inurl:dyndns.org inurl:index.shtml
+inurl:dyndns.org Axis|Mobotix
+intitle:"Linksys Web Camera" "ver"
+"Kamerainformationen anzeigen"
+inurl:image?cachebust=
+inintitle:"supervisioncam protocol"
+title:flexwatch intext:"Copyright by Seyeon TECH Co"
+intitle:”Live NetSnap Cam-Server feed”
+inurl:LvAppl intitle:liveapplet
+"Powered by webcamXP"
+-inurl:htm -inurl:html inurl:ViewerFrame
+-inurl:htm -inurl:html inurl:webcam.php
+camera linksys inurl:main.cgi
+allintitle:Brains
+Corp. camera
+inurl:LvAppl intitle:liveapplet
+"Powered by webcamXP"
+intitle:flexwatch
+intext:"Copyright by Seyeon TECHCo"
+intitle:"WJ-NT104 Main"
+intitle:"WJ-NT104 Main Page"
+intitle:"WV-NP244"
+sample/LvAppl/
+inurl:home/homeJ.html
+inurl:main/flashLogin.html
+inurl:next_file=main_fs.htm
+inurl:/login.ml
+"Webthru User Login"
+"Please enter username and password to log in to system"
+inurl:Ctl/index.htm?Cus
+Configuration "Pop-up Live Image"
+inurl:"*.viewnetcam.com"
+inurl:Remote/index.php3
+intitle:Live Video
+"ViewerFrame?Mode="
+liveapplet
+"inurl:MultiCameraFrame?Mode="
+netw_tcp.shtml
+"indexFrame.shtml?newstyle=Quad"
+"/showcam.php?camid"
+"image?cachebust="
+"live view"
+intitle:liveapplet
+allintitle:Network Camera NetworkCamera
+intitle:video server
+intitle:"supervisioncam protocol"
+intitle:liveapplet inurl:LvAppl
+intitle:"EvoCam" inurl:"webcam.html"
+intitle:"Live NetSnap Cam-Server feed"
+intitle:start inurl:cgistart
+intitle:"netcam live image"
+intitle:"i-Catcher Console - Web Monitor"
+site:.viewnetcam.com -www.viewnetcam.com

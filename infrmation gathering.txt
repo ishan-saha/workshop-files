@@ -1,0 +1,65 @@
+*Free vpn for browsers
+
+zenmate addon (free for browser)
+anonymox addon (free for browser)
+hotspot shield
+
+*vpn for computers
+
+hotspot shield, unlimited vpn, hide my ass, security kiss
+
+*mac address spoofing
+1 tmac 
+2 smac
+
+
+*To send fake mails
+https://emkei.cz/
+
+
+
+*How to know the ip of a target by knowing their email address
+http://whatstheirip.com
+
+to short url go to google url shortner
+
+
+*Social id information gathering
+
+WhitePages.com   // for usa and canada
+truecaller
+facebook
+mail search on google 
+number search on google
+name search on google
+
+**Information gathering of websites and server ips
+
+====================
+
+
+http://www.netinfo.org.ua
+
+http://domainsearch.com
+
+http://whois.domaintools.com/
+
+http://www.who.is/
+
+http://www.whois.net/
+
+http://www.internic.net/whois.html
+
+https://w3dt.net/ 
+
+
+http://en.dnstools.ch/port-scan.html
+
+http://www.dnsstuff.com/
+
+
+http://ipinfo.info/index.php
+
+
+*Information gathering 
+yougetsignal.com   //all sites which are hosted on same server

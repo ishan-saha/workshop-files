@@ -1,0 +1,33 @@
+Directory listing dorks
+
+
+
+*inurl:"/images" Parent Directory
+*inurl:"/pdf" Parent Directory
+
+*inurl:"index of" Parent Directory (best dork we get documents)
+
+*inurl:pictures intitle:index.of site:.in
+
+*inurl:pdf intitle:index.of site:.gov
+
+*inurl:students intitle:index.of site:.edu
+
+inurl:"wp-content/plugins/" 
+inurl:"wp-content/images/"
+inurl:"wp-content/pdf/"
+  
+
+# Disable directory indexes
+Options -Indexes
+
+How To disable directory listing
+
+Open notepad and type:-
+Options -Indexes
+Now save by the name of(.htaccess)
+
+and upload in root server and and edit it by (.htaccess)
+ and now directory listing fixed 
+
+
